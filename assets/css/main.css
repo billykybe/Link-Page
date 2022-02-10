@@ -350,6 +350,7 @@ responsive*/
 }
 .contain .side{
     width: 100%;
+    background-color: #ffffff00;
 }
 .contain .side .bottom {
 height: fit-content;
