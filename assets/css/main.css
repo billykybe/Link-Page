@@ -57,7 +57,10 @@
     display: flex;
 }
 .contain .side{
+ background-color: var(--whiteFade);
     display: flex;
+    background-color: #ffffff88;
+
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
