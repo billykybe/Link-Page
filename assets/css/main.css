@@ -160,7 +160,11 @@ a{
     color: white;
 text-decoration: none;
 }
-.contain .side .bottom h1 a{}
+.contain .side .bottom h1 a{
+    color: white;
+    text-decoration: none;
+
+}
 .contain .side .bottom h1{
     position: absolute;
     background-color: rgba(28, 119, 255, 0.692);
@@ -177,6 +181,11 @@ text-decoration: none;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+.contain .side .bottom h1 a:hover{
+
+    color: #0099ff;
+    background-color:var(--whiteFade);
 }
 .contain .side .bottom h1:hover{
     color: #0099ff;
@@ -261,8 +270,8 @@ z-index: 2;
     -o-border-radius: 10px;
 }
 .contain .body .dash img{
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     padding: 1rem;
 
 }
@@ -284,6 +293,7 @@ font-weight: bold;
  }
 .contain .body .dash h1{
 font-size: 1.5rem;
+margin: 0;
 
 }
 .contain .body .dash .ditails .bar{
