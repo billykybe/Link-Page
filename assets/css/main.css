@@ -144,7 +144,7 @@ display: inline-block;
     transition: all 2s ease ;
     
     height: 100%;
-     object-fit: fill; 
+     object-fit: cover; 
      margin: 0;
 
      width: 100%;
@@ -349,12 +349,13 @@ responsive*/
 }
 .contain .side .bottom {
 height: fit-content;
+
 }
 .contain .side{
 width: 100%;
 }
 .contain .side .bottom img{
-
+height: 30rem;
 }
 .contain .body{
 width: 100%;
@@ -394,4 +395,20 @@ margin: 1rem auto;
 .contain .body h1{
 text-align: center;
 }
+}
+@media screen and (max-width:600px) {
+    *>*{
+    }
+    .body{
+        display: none;
+    }
+    .contain .side .links{
+        margin-bottom: 3rem;
+    flex-direction: column;
+    }
+.contain .side img{
+height: 6rem;
+width: 6rem;    
+} 
+    
 }
