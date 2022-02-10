@@ -33,7 +33,7 @@
     display: flex;
     
     background: url(../img/Animated\ Pattern.gif);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
 }
 .container{
@@ -411,8 +411,43 @@ text-align: center;
     flex-direction: column;
     }
 .contain .side img{
-height: 6rem;
-width: 6rem;    
+height: 10rem;
+width: 10rem;    
 } 
-    
+
+.contain .side .links a:hover{
+    color: var(--blueFade);
+    margin-left: 0rem;
+    font-size: 1rem;
+    margin-top: 0rem;
+}
+.contain .side h2{
+
+font-size: 2rem;
+}
+.contain .side p{
+
+font-size: 1.5rem;
+}
+.contain .side .bottom {
+
+justify-content: center;
+height: 200px;
+
+}
+.contain .side .bottom img{
+ 
+height: 200px;
+object-fit:fill;
+}
+.contain .side .bottom h1{
+font-size: 1rem;
+padding: .4rem;
+background-color: var(--blueFade);
+
+}
+.contain .side .links a{
+
+font-size: .9rem;
+}
 }

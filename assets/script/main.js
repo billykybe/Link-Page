@@ -1,4 +1,4 @@
-const el = document.querySelector(".container");
+const el = document.querySelector(".gif");
 
 el.addEventListener("mousemove", (e) => {
   el.style.backgroundPositionX = -e.offsetX + "px";
