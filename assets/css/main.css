@@ -330,6 +330,10 @@ responsive*/
      -ms-border-radius: 0;
      -o-border-radius: 0;
 }
+.gif, .contain{
+    min-width: 0;
+    min-height: 0;
+    }
 .container{
 
       
@@ -355,16 +359,13 @@ height: fit-content;
 width: 100%;
 }
 .contain .side .bottom img{
-height: 30rem;
+height: 17rem;
 }
 .contain .body{
 width: 100%;
 
 }
-.gif, .contain{
-    width: 100%;
 
-}
 .contain .side .links{
     margin-bottom: 3rem;
 flex-direction: row;
@@ -392,6 +393,9 @@ margin: 1.5rem auto;
 
 margin: 1rem auto;
 }
+.contain .body .dash .ditails{
+margin-left: 0;
+}
 .contain .body h1{
 text-align: center;
 }
@@ -400,7 +404,6 @@ text-align: center;
     *>*{
     }
     .body{
-        display: none;
     }
     .contain .side .links{
         margin-bottom: 3rem;
