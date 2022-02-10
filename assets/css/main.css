@@ -157,18 +157,17 @@ display: inline-block;
     
 }
 a{
-    color: white;
 text-decoration: none;
 }
 .contain .side .bottom h1 a{
-    color: white;
     text-decoration: none;
+    color: white;
+
 
 }
 .contain .side .bottom h1{
     position: absolute;
     background-color: rgba(28, 119, 255, 0.692);
-
     width: 80%;
     border-radius: 5px;
     color: white;
@@ -184,12 +183,9 @@ text-decoration: none;
 }
 .contain .side .bottom h1 a:hover{
 
-    color: #0099ff;
-    background-color:var(--whiteFade);
-}
+background-color: var(--blue);}
 .contain .side .bottom h1:hover{
-    color: #0099ff;
-    background-color:var(--whiteFade);
+background-color: var(--blue);
 }
 
 
